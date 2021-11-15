@@ -1,0 +1,107 @@
+Revision: 95875
+Author: mgreibus
+Date: Thursday, June 10, 2010 1:12:46 PM
+Message:
+EISDEV-2974. move clientvalidators
+----
+Added : /ipb2/ipb-base/thirdparty/clientvalidators (Copy from path: /sandbox/code/clientvalidators, Revision, 95874)
+Deleted : /sandbox/code/clientvalidators
+
+Revision: 38474
+Author: mindaugasg
+Date: Monday, December 22, 2008 2:32:42 PM
+Message:
+IPBDEV-2436.  PF Selenium test failing
+----
+Modified : /sandbox/code/clientvalidators/pom.xml
+Modified : /sandbox/code/clientvalidators/src/main/resources/META-INF/clientvalidators.js
+
+Revision: 34394
+Author: mindaugasg
+Date: Thursday, November 13, 2008 4:07:42 PM
+Message:
+IPBDEV-2108. Implement client-side validation for the component property values (for mandatory)
+----
+Modified : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/scriptgenerator/ScriptGenerator.java
+
+Revision: 34389
+Author: mindaugasg
+Date: Thursday, November 13, 2008 3:35:43 PM
+Message:
+IPBDEV-2134. Attribute constraint "Mandatory" always fails when attribute type "Boolean"
+----
+Modified : /sandbox/code/clientvalidators
+Modified : /sandbox/code/clientvalidators/pom.xml
+
+Revision: 34387
+Author: mindaugasg
+Date: Thursday, November 13, 2008 3:35:01 PM
+Message:
+IPBDEV-2134. Attribute constraint "Mandatory" always fails when attribute type "Boolean"
+----
+Modified : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/scriptgenerator/ScriptGenerator.java
+Modified : /sandbox/code/clientvalidators/src/main/resources/META-INF/clientvalidators.js
+
+Revision: 33716
+Author: mindaugasg
+Date: Friday, November 07, 2008 11:40:30 AM
+Message:
+IPBDEV-2152: Create Home product business rules
+----
+Added : /sandbox/code/clientvalidators/.classpath
+Added : /sandbox/code/clientvalidators/.project
+Added : /sandbox/code/clientvalidators/build-cv.bat
+Added : /sandbox/code/clientvalidators/pom.xml
+Added : /sandbox/code/clientvalidators/src
+Added : /sandbox/code/clientvalidators/src/main
+Added : /sandbox/code/clientvalidators/src/main/java
+Added : /sandbox/code/clientvalidators/src/main/java/net
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/ClientValidatorBase.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/ClientValidatorTagBase.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/ValidatorResourceLoader.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/comparevalidator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/comparevalidator/CompareValidator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/comparevalidator/CompareValidatorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/customvalidator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/customvalidator/CustomValidator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/customvalidator/CustomValidatorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/lengthvalidator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/lengthvalidator/LengthValidator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/lengthvalidator/LengthValidatorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/rangevalidator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/rangevalidator/RangeValidator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/rangevalidator/RangeValidatorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/regularexpressionvalidator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/regularexpressionvalidator/RegularExpressionValidator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/regularexpressionvalidator/RegularExpressionValidatorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/requiredfieldvalidator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/requiredfieldvalidator/RequiredFieldValidator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/requiredfieldvalidator/RequiredFieldValidatorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/scriptgenerator
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/scriptgenerator/ScriptGenerator.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/scriptgenerator/ScriptGeneratorTag.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/utils
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/utils/ClientValidatorUtils.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/utils/ClientValidatorsConstants.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/validationsummary
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/validationsummary/ValidationSummary.java
+Added : /sandbox/code/clientvalidators/src/main/java/net/sf/jsfcomp/clientvalidators/validationsummary/ValidationSummaryTag.java
+Added : /sandbox/code/clientvalidators/src/main/resources
+Added : /sandbox/code/clientvalidators/src/main/resources/META-INF
+Added : /sandbox/code/clientvalidators/src/main/resources/META-INF/clientsidevalidators.taglib.xml
+Added : /sandbox/code/clientvalidators/src/main/resources/META-INF/clientvalidators.js
+Added : /sandbox/code/clientvalidators/src/main/resources/META-INF/faces-config.xml
+Added : /sandbox/code/clientvalidators/src/main/resources/META-INF/validators.tld
+Added : /sandbox/code/clientvalidators/src/test
+
+Revision: 33715
+Author: mindaugasg
+Date: Friday, November 07, 2008 11:38:50 AM
+Message:
+IPBDEV-2152: Create Home product business rules
+----
+Added : /sandbox/code/clientvalidators
+
